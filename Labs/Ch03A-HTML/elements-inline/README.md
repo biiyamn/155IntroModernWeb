@@ -17,7 +17,7 @@
  
  1. Modify your `/WIP/html/recipes.html` by adding  internal links to the individual recipes. Use the # symbol and id value for the internal link - and display the name of the recipe to be clicked.  
 
-1. Add content near the top of the page asking viewers if they need to convert the measurements. Make the words convert the measurements clickable to open this page in another browser tab: https://www.free-online-calculator-use.com/recipe-conversion-calculator.html
+1. Add content near the top of the page asking viewers if they need to convert the measurements. Make the words convert the measurements clickable to open this page in another browser tab: `https://www.free-online-calculator-use.com/recipe-conversion-calculator.html`
 
 1. Search the web for a picture of a lemon bar. Download it to a new folder called images.
 
