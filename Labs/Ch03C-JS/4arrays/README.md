@@ -1,8 +1,5 @@
 # Chapter 3C: Practice with arrays 
 
-## Objectives
-* Add CSS and some simple styling to pages
-
 ### Estimated Completion Time 
 15 minutes
  
