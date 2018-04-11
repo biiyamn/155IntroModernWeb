@@ -2,6 +2,9 @@
 node_modules/
 dist/
 
+demo.js
+demo.html
+
 # Changes during npm install
 package-lock.json
 

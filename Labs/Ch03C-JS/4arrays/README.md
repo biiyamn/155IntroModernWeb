@@ -1,29 +1,25 @@
-# Chapter 3C: Practice with arrays 
+# Chapter 3C: Array practice
 
-### Estimated Completion Time 
-15 minutes
+## Steps
  
-1. In your `/WIP/` directory create a `CSS` folder and a file `CSSpractice.html`. 
 
-1. Type html and choose the template that is just labeled html.
+1. Continue with your practice file.
 
-1. Notice:
-    * that the title tag is highlighted - type CSSPractice.
-    * that there is a link to an external stylesheet main.css
-    * that there is a script tag - remove it
+1. Add a `<div id="hobbies"></div>` to your page
 
-1. Create the main.css file at the same level as your html file.
+1. Create an onload event for the page that calls a function called init()
 
+1. In init() function
+    * hard-code a string array with some (3-5) favorite hobbies.
+    * declare a variable output and set its value to what is returned form a new function called printHobbies, that you pass the array into
 
-crete a dov with ids for header footer main
+1. In the new function:
+    * create a string variable to store output
+    * Loop through the passed in array, updating the string to create a final string of the format:
+    ```
+    I like 4 things: x, and y, and z
+    ```
+    * return the new string
 
-add color for font
+1. In init() set the innerHTML property of document.getElementById to your new output string
 
-view on screen, view on print preview is same?
-if not change to be all
-
-lets save some ink - make print sheet and turn color to blck and turn off heder and footer with display: none
-
-go to print preview and see in print turn off these
-
-create a print sheet
