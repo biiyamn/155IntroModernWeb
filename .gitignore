@@ -1,6 +1,7 @@
 # Dependency directories
 node_modules/
 dist/
+Ch03B-CSS/
 
 # Changes during npm install
 package-lock.json
