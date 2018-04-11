@@ -1,4 +1,4 @@
-# Chapter 3B: Adding CSS to pages
+# Chapter 3C: Practice with arrays 
 
 ## Objectives
 * Add CSS and some simple styling to pages
