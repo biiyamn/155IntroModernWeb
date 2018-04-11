@@ -23,3 +23,5 @@
 
 1. In init() set the innerHTML property of document.getElementById to your new output string
 
+1. Create a new div with a new id.  Write a new function which creates an unordered list of items displayed in the new id.
+

@@ -29,3 +29,20 @@ Your work will be similar to this example
 
 1. Run from the command line using `node myHobbies`
 
+1. Create an object literal to represent one band:
+    ```javascript
+    var band1 = {
+            name : "Pink Floyd",
+            city : "London" ,
+            country : "England",
+            yearFormed : 1965,
+            genres : ["Progressive rock", "psychedelic rock", "art rock"]
+        }
+        band1.genres = new Array("Progressive rock2", "psychedelic rock2", "art rock2");
+    ```
+
+1. Create another object for a band of your choice. Use the new Object() notation and then add the same properties using the dot notation.
+
+1. Create a bands array and add the two objects.
+
+1. Create a function to process this array. Update a targeted div element to create a multi-level list.  An unordered list for each band, and within the band, an ordered list for the genres.
