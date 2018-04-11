@@ -15,19 +15,15 @@
     * that there is a link to an external stylesheet main.css - remove it
     * that there is a script tag including main.js
 
-1. Create a file main.js at the sme level as your html file.
+1. Create a file main.js at the same level as your html file.
 
 1. Add code to print a Hello World message to the devtools console.
 
-crete a dov with ids for header footer main
+1. Check that your code works. 
 
-add color for font
+1. Add another set of script tags inside of the `<head>`
 
-view on screen, view on print preview is same?
-if not change to be all
+1. Inside, use console.log 
 
-lets save some ink - make print sheet and turn color to blck and turn off heder and footer with display: none
+1. Use document.write to display an h1 element with the text Welcome to class and a p saying Check the console.
 
-go to print preview and see in print turn off these
-
-create a print sheet
