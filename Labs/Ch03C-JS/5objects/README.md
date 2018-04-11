@@ -1,29 +1,31 @@
-# Chapter 3C: Create and call functions
+# Chapter 3C: Object practice
 
 ## Steps
-
  
-1. In your `/WIP/` directory create a `CSS` folder and a file `CSSpractice.html`. 
 
-1. Type html and choose the template that is just labeled html.
+1. Continue with your practice page. 
 
-1. Notice:
-    * that the title tag is highlighted - type CSSPractice.
-    * that there is a link to an external stylesheet main.css
-    * that there is a script tag - remove it
+1. In a file called myHobbies.js - create an array of 3 of your hobbies. Each hobby should be represented as an object with a name, and lengthInYearsAtHobby. Similar to the following sports array, only with lengthInYearsAtHobby as a numeric value.
 
-1. Create the main.css file at the same level as your html file.
+    ``` javascript
+    const sportsArray = [
+        { name: 'volleyball', duration: 'matches' },
+        { name: 'baseball', duration: 'innings'},
+        { name: 'hockey', duration: 'periods'}
+    ];
+    ```            
 
+1. Create a function that takes in one hobby and prints it to console.log. Use ES6 backticks. Check out how cool backticks are!  you can concatenate without the plus symbol.  It uses ${ }  with the variable name inside.
+Your work will be similar to this example
+    ``` javascript
+    function printSportInfo(sport) {
+        console.log(` ${sport.name} is played in ${sport.duration} `)
+    }
+    ```
 
-crete a dov with ids for header footer main
+1. Now loop through your array items and call your function for each item.     ``` javascript
+        printSportInfo(sportsArray[someCounter]);
+    ```
 
-add color for font
+1. Run from the command line using `node myHobbies`
 
-view on screen, view on print preview is same?
-if not change to be all
-
-lets save some ink - make print sheet and turn color to blck and turn off heder and footer with display: none
-
-go to print preview and see in print turn off these
-
-create a print sheet
